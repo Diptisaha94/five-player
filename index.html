@@ -29,7 +29,7 @@
                                     <div class="card-body bgcolor text-center">
                                       <h5 class="card-title text-white">Lionel Messi</h5>
                                       <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                                <button class="btn btn-primary btn-lg">Select</button>
+                                <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
                              </div>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                         <div class="card">
                             <img src="images/player2.jpg" class="card-img-top" alt="...">
                             <div class="card-body bgcolor text-center">
-                              <h5 class="card-title text-white">Lionel Messi</h5>
+                              <h5 class="card-title text-white">Virat Kouli</h5>
                               <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                        <button class="btn btn-primary btn-lg">Select</button>
+                        <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
                      </div>
                 </div>
             </div>
@@ -47,26 +47,31 @@
                 <div class="card">
                     <img src="images/player2.jpg" class="card-img-top" alt="...">
                     <div class="card-body bgcolor text-center">
-                      <h5 class="card-title text-white">Lionel Messi</h5>
+                      <h5 class="card-title text-white">Neymar Jr</h5>
                       <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                <button class="btn btn-primary btn-lg">Select</button>
+                <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
              </div>
         </div>
     </div>
-    <div class="col-lg-3">
-        <div class="card bgcolor text-center py-2" style="min-height:350px;">
-          <h3 class="text-white fs-5">Select Your Player Name</h3>  
+    <div class="col-lg-3 bgcolor py-2" style="min-height:350px;">
+        <div class="text-center ">
+          <h3 class="text-white fs-5">Selected Player</h3>  
+</div>
+<div id="display-player" class="text-white">
+<ol id="ol">
+
+</ol>
 </div>
 </div>
                 </div>
-                <div class="row gx-3 mt-5">
+                <div class="row gx-3 my-5">
                     <div class="col-lg-3">
                                 <div class="card">
                                     <img src="images/player2.jpg" class="card-img-top" alt="...">
                                     <div class="card-body bgcolor text-center">
-                                      <h5 class="card-title text-white">Lionel Messi</h5>
+                                      <h5 class="card-title text-white">Kylian Mbappe</h5>
                                       <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                                <button class="btn btn-primary btn-lg">Select</button>
+                                <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
                              </div>
                         </div>
                     </div>
@@ -74,9 +79,9 @@
                         <div class="card">
                             <img src="images/player2.jpg" class="card-img-top" alt="...">
                             <div class="card-body bgcolor text-center">
-                              <h5 class="card-title text-white">Lionel Messi</h5>
+                              <h5 class="card-title text-white">Vítor Machado</h5>
                               <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                        <button class="btn btn-primary btn-lg">Select</button>
+                        <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
                      </div>
                 </div>
             </div>
@@ -84,9 +89,9 @@
                 <div class="card">
                     <img src="images/player2.jpg" class="card-img-top" alt="...">
                     <div class="card-body bgcolor text-center">
-                      <h5 class="card-title text-white">Lionel Messi</h5>
+                      <h5 class="card-title text-white">Sergio Ramos</h5>
                       <p class="text-white-50"><span>36 Goals</span> . <span>120 Assist</span></p>
-                <button class="btn btn-primary btn-lg">Select</button>
+                <button class="btn btn-primary btn-lg" onclick="selectedPlayer(this)">Select</button>
              </div>
         </div>
     </div>
@@ -117,7 +122,7 @@
             </div>
         </section>
     </footer>
-
+    <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
